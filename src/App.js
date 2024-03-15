@@ -23,7 +23,19 @@ const App = () => {
 
   return (
     <div className="App">
-      <h1>Hello Chart!</h1>
+       <PieChart width={400} height={400}>
+          <Pie
+            dataKey="users"
+            isAnimationActive={false}
+            data={data}
+            cx={200}
+            cy={200}
+            outerRadius={80}
+            fill="#8884d8"
+            label
+          />
+          <Tooltip />
+        </PieChart>
     </div>
   );
 }
