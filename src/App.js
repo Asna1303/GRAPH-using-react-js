@@ -5,6 +5,12 @@ import {
   PieChart,
   Pie,
   Tooltip,
+  BarChart,
+  XAxis,
+  YAxis,
+  Legend,
+  CartesianGrid,
+  Bar,
   
 } from "recharts"; 
 
