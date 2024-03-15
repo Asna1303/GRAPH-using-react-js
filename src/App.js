@@ -1,6 +1,5 @@
-
-import './App.css';
 import React from "react";
+import "./App.css";
 import {
   PieChart,
   Pie,
@@ -11,8 +10,7 @@ import {
   Legend,
   CartesianGrid,
   Bar,
-  
-} from "recharts"; 
+} from "recharts";
 
 const App = () => {
   const data = [
@@ -62,9 +60,9 @@ const App = () => {
           <CartesianGrid strokeDasharray="3 3" />
           <Bar dataKey="users" fill="#8884d8" background={{ fill: "#eee" }} />
         </BarChart>
-    </div>
+      </div>
     </div>
   );
-}
+};
 
 export default App;
