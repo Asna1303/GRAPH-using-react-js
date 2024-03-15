@@ -1,5 +1,17 @@
 
 import './App.css';
+import React from "react";
+import {
+  PieChart,
+  Pie,
+  Tooltip,
+  BarChart,
+  XAxis,
+  YAxis,
+  Legend,
+  CartesianGrid,
+  Bar,
+} from "recharts"; 
 
 const App = () => {
   const data = [
