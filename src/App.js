@@ -5,12 +5,7 @@ import {
   PieChart,
   Pie,
   Tooltip,
-  BarChart,
-  XAxis,
-  YAxis,
-  Legend,
-  CartesianGrid,
-  Bar,
+  
 } from "recharts"; 
 
 const App = () => {
@@ -22,8 +17,10 @@ const App = () => {
   ];
 
   return (
-    <div className="App">
-       <PieChart width={400} height={400}>
+    <div style={{ textAlign: "center" }}>
+      <h1>Social Media Users</h1>
+      <div className="App">
+        <PieChart width={400} height={400}>
           <Pie
             dataKey="users"
             isAnimationActive={false}
@@ -36,6 +33,7 @@ const App = () => {
           />
           <Tooltip />
         </PieChart>
+    </div>
     </div>
   );
 }
